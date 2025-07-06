@@ -1,0 +1,88 @@
+.container {
+  max-width: 720px;
+  margin: 3rem auto;
+  padding: 2.5rem;
+  background: linear-gradient(to bottom right, #f6dddd, #e9e9fc);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.07);
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 1.8rem;
+  color: #2e3a59;
+  margin-bottom: 2rem;
+}
+
+.input {
+  width: 96%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 2px solid #cfd8dc;
+  border-radius: 10px;
+  resize: vertical;
+  background-color: #ffffff;
+  transition: border 0.2s ease;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.input:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.selectRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.selectRow select,
+.paramInput {
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border: 2px solid #b0bec5;
+  border-radius: 10px;
+  background-color: #ffffff;
+  min-width: 160px;
+  transition: border 0.3s ease;
+}
+
+.selectRow select:focus,
+.paramInput:focus {
+  border-color: #1976d2;
+  outline: none;
+}
+
+.btn {
+  margin-top: 1rem;
+  padding: 0.7rem 1.6rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.btn:hover {
+  background-color: #125ea7;
+  transform: scale(1.03);
+}
+
+.output {
+  margin-top: 2rem;
+  padding: 1.25rem;
+  background: #ffffff;
+  border: 2px dashed #90caf9;
+  border-radius: 14px;
+  font-size: 1rem;
+  color: #37474f;
+  text-align: left;
+  word-wrap: break-word;
+}
