@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🔤 String Utilities Tool – Part 2
 
-## Getting Started
+An advanced React-based playground to explore complex JavaScript string methods like `replaceAll`, `match`, `padStart`, `repeat`, and `localeCompare`. 
+Designed for intermediate-to-advanced learners, this tool helps you experiment live and understand subtle behaviors of powerful string methods.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔁 Test advanced string functions in real time
+- 🎯 Dynamic parameter input based on selected method
+- 📘 Full support for RegExp in `match()` and `replaceAll()`
+- 🧱 Responsive and modern UI using scoped CSS Modules
+- 📌 Error handling and live preview
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Included String Methods
 
-## Learn More
+| Method          | Description                                        |
+|-----------------|----------------------------------------------------|
+| `replaceAll()`  | Replaces **all** instances of a substring          |
+| `match()`       | Finds matches using regular expressions            |
+| `padStart()`    | Pads the string from the start to desired length   |
+| `padEnd()`      | Pads the string from the end to desired length     |
+| `repeat()`      | Repeats the string a given number of times         |
+| `localeCompare()` | Compares strings alphabetically/culturally       |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧪 How to Use
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Enter your **input string** in the main textarea.
+2. Choose a method from the dropdown.
+3. Enter parameters as needed (some methods use one or two).
+4. Click **Run** and see the live output.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🧰 Tech Stack
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- ✅ React with `useState` for interactive logic
+- 🎨 CSS Modules (`stringUtilitiesPart2.module.css`)
+- 🛠 JavaScript string API and RegExp
+
+---
+
+<img width="898" alt="Screenshot 2025-07-07 at 1 18 05 AM" src="https://github.com/user-attachments/assets/6903ad37-d6ed-48ec-a05c-15fa9a4aa7a8" />
+<img width="876" alt="Screenshot 2025-07-07 at 1 17 57 AM" src="https://github.com/user-attachments/assets/19ecc4c5-4e0b-4914-aadc-aea0218fe1b5" />
+
